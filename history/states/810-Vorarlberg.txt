@@ -4,6 +4,7 @@ state={
 	name="STATE_810"
 	manpower = 1655340			#TODO
 
+	state_category = town
 
 	history={
 		owner = AUS
