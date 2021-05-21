@@ -15,17 +15,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	neutrality = 15
+	fascism = 60
+	democratic = 15
+	communism = 10
 }
 
 set_stability = 0.50
@@ -35,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -44,7 +44,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Renner"
 	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "Portrait_Austria_Karl_Renner.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -53,22 +53,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	name = "Johann Koplenig"
+	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	picture = "Portrait_Austria_Johann_Koplenig.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = marxism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Alfred Klahr"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Otto von Habsburg"
+	desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+	picture = "Portrait_Austria_Otto_von_Habsburg.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotism
 	traits = {
 		#
 	}
