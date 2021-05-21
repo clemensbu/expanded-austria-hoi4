@@ -2,6 +2,10 @@
 
 oob = "AUS_1936"
 
+add_ideas = {
+	AUS_tausend_mark_sperre
+}
+
 set_research_slots = 3
 
 set_technology = {
